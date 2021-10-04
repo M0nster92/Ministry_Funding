@@ -7,7 +7,7 @@ routes -->
 main requirement:
 --> GET 'ministry/:name' for details of single ministry and all the fundings associated with it
 [Note: for ministry pass name of the ministry as the param, not the id. For example: "http://localhost:8000/ministry/Ministry of Indigenous Affairs"]
-For onlt JSON view --> "http://localhost:8000/ministry/Ministry of Indigenous Affairs?format=json" use this url in the browser
+For only JSON view --> "http://localhost:8000/ministry/Ministry of Indigenous Affairs?format=json" use this url in the browser
 
 other routes[had to implement as I had to insert some data manually, so I created the route and inserted through api]:
 --> GET 'fundings/' for list of all fundings
