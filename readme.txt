@@ -6,7 +6,7 @@
 routes --> 
 main requirement:
 --> GET 'ministry/:name' for details of single ministry and all the fundings associated with it
-[Note: for ministry pass name of the ministry as the param, not the id. For example: "http://localhost:8000/ministry/Ministry%20of%20Energy,%20Northern%20Development%20and%20Mines"]
+[Note: for ministry pass name of the ministry as the param, not the id. For example: "http://localhost:8000/ministry/Ministry of Indigenous Affairs"]
 
 other routes[had to implement as I had to insert some data manually, so I created the route and inserted through api]:
 --> GET 'fundings/' for list of all fundings
